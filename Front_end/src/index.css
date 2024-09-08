@@ -25,23 +25,12 @@ body{
 
 .text{
   font-size: 4rem;
-  letter-spacing: 3px;
-  font-family: monospace;
-  border-right: 5px solid;
+  letter-spacing: 2px;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 3s steps(14) ease-in linear, cursor .4s step-end infinite alternate ;
-  animation: name duration timing-function delay iteration-count direction fill-mode;
-}
-@keyframes cursor{
-  50%{border-color: transparent;}
-}
-@keyframes typing{
-  from {width: 0;}
 }
 main{
   position: relative;
-
   z-index: 0;
 }
 
